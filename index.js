@@ -116,7 +116,7 @@ function displayResult(result) {
             displayInfo.push(
                 `<div style="overflow-y: auto; max-height: 5em; margin: 0.2em; display: flex"> <div class="resultTitle" style="width: 10em; margin-right:10px; display:flex; align-items: center; justify-content: right">` 
                 + key 
-                + `:</div> <div class="resultResult" style="width: calc(100vw - 10em)">` 
+                + `:</div> <div class="resultResult" style="width: calc(100% - 10em)">` 
                 + ((Array.isArray(result[key])) ? result[key].join(", ") : result[key])
                 + `</div> </div>`
             );

@@ -8,19 +8,21 @@
 		<style>
 			* {
 				box-sizing: border-box;
-                
 			}
 		</style>
 	</head>
-	<body>
-		<h1 style="text-align: center;">Prime numbers up to</h1>
-		<div style="display:flex; justify-content: center; gap: 5px">
-            <label for="input">Input: </label>
-            <input type="text" name="input" id="input" value="100" />
-        </div>
-		<hr>
-        <h3 style="text-align: center;">Resultado:</h3>
-		<div id="result"></div>
+	<body style="align-items:center; display: flex; flex-direction: column">
+		<div style="max-width: 480px;">
+			<h1 style="text-align: center">Prime numbers up to</h1>
+			<div style="display: flex; justify-content: center; gap: 5px">
+				<label for="input">Input: </label>
+				<input type="text" name="input" id="input" value="100" />
+			</div>
+			<hr />
+			<h3 style="text-align: center">Resultado:</h3>
+			<div id="result"></div>
+		</div>
 	</body>
+
 	<script src="./index.js"></script>
 </html>
